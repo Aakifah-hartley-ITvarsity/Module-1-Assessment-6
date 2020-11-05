@@ -1,0 +1,137 @@
+body{
+    padding    : 1px;
+    margin    : 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*================Menu===================*/ 
+#menu{
+     width:100%;
+     height:40px;
+    background-color:rgb(34, 155, 163) ;
+     padding-top: 12px;
+     margin-top:5px;
+     
+    
+}
+#menu a{
+     color:rgb(255, 244, 244);
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+     font-weight: 700;
+     text-decoration:none;
+     font-weight: 800px;
+     padding-left: 150px;
+     padding-right: 150px;
+     
+}
+#menu a:hover{
+      color: #33e407;
+}
+
+
+
+/*================Main-home===================*/
+
+
+#main-home{
+      margin-top:1px;
+      padding: 10px;
+      width:100%;
+      display:inline-block;
+      background-image: url("images/background.jpg" );
+     }
+      
+ h1{
+color:red;
+text-align: center;
+      }
+     
+
+
+/*******************Table*************/
+
+.table, th, td {
+     border: 5px solid rgba(195, 0, 255, 0.671);
+     border-collapse: collapse;
+     padding: 15px;
+  text-align: left;
+   }
+
+h2{
+color:forestgreen;
+text-align:center;
+}
+
+/*==========================Button========================*/
+
+
+   #Buy .button{
+     background-color:crimson;
+     color: rgb(247, 223, 223);
+     border: 3px solid rgb(184, 11, 11);
+     padding: 1px;
+     text-align  : center;
+     display: block;
+     padding:15px;
+     width: 50%;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     text-decoration: none;
+}
+ p{
+     margin  : 0;
+     padding : 1;
+     width   : 90%;
+     display: block;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color   : #131313;
+}
+
+
+
+#back{
+     background-color:rgb(243, 243, 243);
+     color: rgb(247, 223, 223);
+     border: 3px solid rgb(11, 224, 57);
+     padding: 1px;
+     text-align  : center;
+     display: block;
+     padding:15px;
+     text-decoration: none;
+     width: 50%;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     
+}
+#back a{
+     text-decoration: none;
+     color:rgb(15, 156, 199);
+}
+/**************************form****************************/
+
+input{
+     width: 50%;
+     height: 25px;
+     background-color: rgba(7, 160, 221, 0.082);
+     margin : 12px 0;
+     border : 5px solid rgb(34, 155, 163);
+}
+
+textarea{
+     width: 50%;
+     height :80px;
+     background-color: rgba(7, 160, 221, 0.082);
+     margin : 10px 0;
+     border : 5px solid rgb(34, 155, 163);
+}
+#submit a{
+     text-decoration: none;
+     padding:5px;
+     background-color: rgb(34, 155, 163);
+     color:white;
+    border-style: 1px double yellow;
+}
+
+
